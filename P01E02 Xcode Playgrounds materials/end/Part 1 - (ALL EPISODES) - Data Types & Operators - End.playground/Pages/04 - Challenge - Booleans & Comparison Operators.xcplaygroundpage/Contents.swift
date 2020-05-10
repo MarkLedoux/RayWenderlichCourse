@@ -28,7 +28,6 @@ let student = "Chris Belanger"
 let author = "Matt Galloway"
 let authorIsStudent = student == author
 
-
 /*:
  ## Challenge 3
  

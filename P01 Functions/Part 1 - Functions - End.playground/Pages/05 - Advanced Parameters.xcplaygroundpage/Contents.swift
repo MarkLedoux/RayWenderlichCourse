@@ -19,7 +19,6 @@ getHighestGrade()
 getHighestGrade(for: jessyGrade, ozmaGrade)
 //getHighestGrade(for: ozmaAllGrades)
 
-
 //: ### Inout Parameters
 
 // --------------------------------------
@@ -34,6 +33,5 @@ func incrementAndPrint(_ value: inout Int) {
 incrementAndPrint(&count)
 incrementAndPrint(&count)
 count
-
 
 //: [⇒ Next: 06 - Challenge - Overloads & Parameters](@next)

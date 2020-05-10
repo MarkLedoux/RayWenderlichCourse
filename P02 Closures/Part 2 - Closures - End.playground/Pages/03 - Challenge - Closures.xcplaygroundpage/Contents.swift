@@ -37,13 +37,10 @@ func printResult(_ operate: Operate, _ a: Double, _ b: Double) {
 // --------------------------------------
 
 // TODO: Write solution here
-printResult(
-  { (a, b) -> Double in
+printResult({ (a, b) -> Double in
     ((a * a) + (b * b)).squareRoot()
   },
   5, 3
 )
-
-
 
 //: [⇒ Next: 04 - Closure Syntax](@next)

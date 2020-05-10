@@ -18,8 +18,24 @@
 
 // TODO: Write solution here
 
+let lifeStage: String
 
-
+switch("Ozama", 7) {
+case (let name, 0...2):
+	lifeStage = "\(name) is an Infant"
+case (let name, 3...12):
+	lifeStage = "\(name) is a Child"
+case (let name, 13...19):
+	lifeStage = "\(name) is a Teenager"
+case (let name, 20...39):
+	lifeStage = "\(name) is an Adult"
+case (let name, 40...60):
+	lifeStage = "\(name) is Middle aged"
+case (let name, 61...):
+	lifeStage = "\(name) is an Elderly"
+case (_, let age):
+	lifeStage = "Unaccounted for age: \(age)"
+}
 
 /*:
  ## Challenge 2
@@ -33,9 +49,28 @@
 
 // TODO: Write solution here
 
+enum Direction {
+	case north, south, east, west
+}
 
+func getLocation(for movements: [Direction]) -> (x: Int, y: Int) {
+//	var location = (x: 0, y: 0)
+	movements.reduce(into: (x: 0, y: 0)) { (location, movement) in
+		for movement in movements {
+			switch movement {
+			case .north:
+				location.y += 1
+			case .south:
+				location.y -= 1
+			case .west:
+				location.x -= 1
+			case .east:
+				location.x += 1
+			}
+		}
+	}
+}
 
-
-
+getLocation(for: [.north, .south, .west, .north, .south, . north])
 
 //: [⇒ Next: 07 - Associated Values](@next)

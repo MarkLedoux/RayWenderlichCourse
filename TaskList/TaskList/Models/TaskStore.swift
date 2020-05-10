@@ -24,14 +24,14 @@ class TaskStore: ObservableObject {
             names: [
                 "Pass the exam on Monday and Tuesday",
                 "Make karaoke playlist",
-                "Present at iOS meetup group",
+                "Present at iOS meetup group"
             ]
         ),
         PriotizedTasks(
             priority: .low,
             names: [
                 "Watch Youtube",
-                "Watch Avatar the Last Airbender again",
+                "Watch Avatar the Last Airbender again"
             ]
         ),
         PriotizedTasks(
@@ -41,10 +41,10 @@ class TaskStore: ObservableObject {
             ]
         )
     ]
-    
+
     func getIndex(for priority: Task.Priority) -> Int {
         prioritizedTasks.firstIndex { $0.priority == priority }!
-         
+
     }
 }
 

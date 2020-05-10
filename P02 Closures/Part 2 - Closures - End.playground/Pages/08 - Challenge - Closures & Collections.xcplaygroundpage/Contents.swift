@@ -7,18 +7,18 @@ class Student {
   var grade: Int
   var pet: String?
   var libraryBooks: [String]
-  
+
   init(name: String, grade: Int, pet: String? = nil, libraryBooks: [String]) {
     self.name = name
     self.grade = grade
     self.pet = pet
     self.libraryBooks = libraryBooks
   }
-  
+
   func getPassStatus(lowestPass: Int = 50) -> Bool {
     grade >= lowestPass
   }
-  
+
   func earnExtraCredit() {
     grade += 10
   }
@@ -56,7 +56,6 @@ students.forEach { (student) in
 //}
 //print(classLibraryBooks)
 
-
 /*:
  ## Challenge 2 - compactMap
  Replace the `for` loop below with compactMap.
@@ -74,7 +73,6 @@ let classPets = students.compactMap { //(student) -> String? in
   $0.pet
 }
 
-
 /*:
  ## Challenge 3 - flatMap
  In Challenge 1 you created `libraryBooks`, an array of String arrays!
@@ -85,6 +83,5 @@ let classLibraryBooks = students.flatMap { (student) -> [String] in
   student.libraryBooks
 }
 print(classLibraryBooks)
-
 
 //: [⇒ Next: 09 - filter, reduce, & sort](@next)

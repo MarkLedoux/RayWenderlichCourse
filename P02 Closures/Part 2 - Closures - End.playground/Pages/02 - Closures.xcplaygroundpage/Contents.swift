@@ -28,13 +28,10 @@ printResult(operate, 4, 5)
 printResult(addClosure, 4, 5)
 printResult(+, 4, 5)
 
-printResult(
-  { (a: Int, b: Int) -> Int in
+printResult({ (a: Int, b: Int) -> Int in
     a * b + 100
   },
   7, 3
 )
-
-
 
 //: [⇒ Next: 03 - Challenge - Closures](@next)

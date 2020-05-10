@@ -19,9 +19,8 @@ var addClosure = { (a: Int, b: Int) -> Int in
      a + b
 }
 
-add(a: 4,b: 2)
-operate(4,2)
-addClosure(7,3)
-
+add(a: 4, b: 2)
+operate(4, 2)
+addClosure(7, 3)
 
 //: [⇒ Next: 03 - Challenge - Closures](@next)

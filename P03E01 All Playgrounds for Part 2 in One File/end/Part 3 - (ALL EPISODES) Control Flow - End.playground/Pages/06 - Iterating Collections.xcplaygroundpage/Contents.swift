@@ -17,9 +17,4 @@ for temperature in poolTemperature {
 
 sum / poolTemperature.count
 
-
-
-
-
-
 //: [⇒ Next: 07 - Challenge - Iterating Collections](@next)

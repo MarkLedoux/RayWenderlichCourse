@@ -10,7 +10,7 @@ import SwiftUI
 
 struct SectionView: View {
     @Binding var prioritizedTasks: TaskStore.PriotizedTasks
-    
+
     var body: some View {
         Section(
             header: Text(

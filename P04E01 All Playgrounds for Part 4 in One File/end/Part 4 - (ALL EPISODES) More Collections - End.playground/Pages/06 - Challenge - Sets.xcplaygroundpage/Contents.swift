@@ -27,7 +27,6 @@ animalPets.insert("🐯 Tiger")
 animalPets.insert("🐉 Toothless")
 animalPets.insert("🦉 Owl")
 
-
 /*:
  
  Challenge 1

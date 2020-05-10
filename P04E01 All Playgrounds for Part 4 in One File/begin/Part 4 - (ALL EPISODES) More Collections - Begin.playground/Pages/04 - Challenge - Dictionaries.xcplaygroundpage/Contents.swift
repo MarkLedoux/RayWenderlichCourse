@@ -60,10 +60,8 @@ print(personalInfo)
  
  */
 
-
 for (key, value) in personalInfo {
     print("\(key): \(value)")
 }
-
 
 //: [⇒ Next: 05 - Working with Sets](@next)

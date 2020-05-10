@@ -8,7 +8,7 @@ petName = nil
 var result: Int? = 30
 print(result)
 
-var petName: String? = nil //"Mango"
+var petName: String? //"Mango"
 var petAge: Int? = 2
 
 //var unwrappedPetName = catName!
@@ -21,6 +21,6 @@ if let petName = petName,
     print("No pet name or age")
 }
 
-var optionalInt: Int? = nil //10
+var optionalInt: Int? //10
 var requiredResult = optionalInt ?? 0
 //: [⇒ Next: 08 - Challenge - Optionals](@next)

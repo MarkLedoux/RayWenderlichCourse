@@ -16,7 +16,7 @@ class Actor {
     self.name = name
     self.filmography = filmography
   }
-  
+
   func signOnForSequel(franchiseName: String) {
     filmography.append("Upcoming \(franchiseName) sequel")
   }

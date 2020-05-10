@@ -44,5 +44,4 @@ pastries
 pastries[0...1] = ["brownie", "fritter", "tart"]
 pastries
 
-
 //: [⇒ Next: 06 - Challenge - Arrays](@next)

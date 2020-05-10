@@ -21,6 +21,4 @@ n
 m
 p
 
-
 //: [⇒ Next: 03 - Challenge - Tuples](@next)
-

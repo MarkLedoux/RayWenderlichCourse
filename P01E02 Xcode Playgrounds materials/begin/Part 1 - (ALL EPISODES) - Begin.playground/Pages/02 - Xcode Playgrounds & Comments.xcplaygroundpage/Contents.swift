@@ -8,4 +8,3 @@ let goodByeMessage = "See you soon!"
 
 print(goodByeMessage)
 //: [⇒ Next: 03 - Booleans & Comparison Operators](@next)
-

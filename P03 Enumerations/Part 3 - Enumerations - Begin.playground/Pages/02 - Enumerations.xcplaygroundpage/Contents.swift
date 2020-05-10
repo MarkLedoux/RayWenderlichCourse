@@ -13,5 +13,4 @@ func monthsUntilJingleBells(from month: Month) -> Int {
 
 monthsUntilJingleBells(from: .march)
 
-
 //: [⇒ Next: 03 - Challenge - Enumerations](@next)

@@ -6,5 +6,4 @@ let studentGrade = 50
 let chrisGrade = 49
 let samGrade = 99
 
-
 //: [⇒ Next: 06 - Challenge - Logical Operators](@next)

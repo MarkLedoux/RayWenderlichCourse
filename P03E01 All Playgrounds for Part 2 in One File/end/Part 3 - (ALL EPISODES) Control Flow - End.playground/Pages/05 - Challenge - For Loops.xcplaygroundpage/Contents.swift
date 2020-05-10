@@ -45,7 +45,6 @@ for rangeValue in rangeStart..<rangeStart + 3 {
     print("Range value is \(rangeValue)")
 }
 
-
 /*:
  
  ## Challenge 3

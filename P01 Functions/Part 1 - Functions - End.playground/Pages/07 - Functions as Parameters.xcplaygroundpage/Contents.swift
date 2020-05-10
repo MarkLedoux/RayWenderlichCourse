@@ -17,7 +17,6 @@ func subtract(number1: Int, number2: Int) -> Int {
 function = subtract
 function(4, 2)
 
-
 //: Functions can use functions as parameter and return types. Functions that do this are called  "higher-order functions"
 //: Functions, like tuples, are compound types! They are distinguished by a type signature instead of a name.
 
@@ -34,7 +33,6 @@ printResult(myFunction, 8, 13)
 printResult(+, 8, 13)
 printResult(-, 8, 13)
 printResult(*, 8, 13)
-
 
 //: A `typealias` lets you give a name to a compound type, or give *another* name to a named type.
 

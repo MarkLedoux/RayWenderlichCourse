@@ -42,7 +42,6 @@ let samIsMeritStudent = samHasPerfectAttendance && samGrade > meritAwardGrade
 let chrisHasPerfectAttendance = true
 let chrisIsMeritStudent = chrisHasPerfectAttendance && chrisGrade > meritAwardGrade
 
-
 if chrisIsMeritStudent {
     print("Congratulations!")
 } else {

@@ -36,8 +36,7 @@ public extension ForEach where Content: View {
   where
     Data == IndexedCollection<Base>,
     Base.Element: Identifiable,
-    ID == Base.Element.ID
-  {
+    ID == Base.Element.ID {
     self.init(IndexedCollection(base), id: \.element.id) {
       index, _ in content(index)
     }

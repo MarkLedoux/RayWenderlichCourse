@@ -88,8 +88,4 @@ let longToShortNames = names.sorted {
 
 //: sorted() & sorted(by:) - Returns a new collection that is sorted
 
-
-
-
-
 //: [⇒ Next: 09 - Challenge - filter, reduce, and sort](@next)

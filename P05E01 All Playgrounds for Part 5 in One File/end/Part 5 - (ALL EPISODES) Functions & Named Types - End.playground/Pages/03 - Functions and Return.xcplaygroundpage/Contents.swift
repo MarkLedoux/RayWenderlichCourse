@@ -32,5 +32,4 @@ func orderPetCollar(for student: Student) {
 orderPetCollar(for: chris)
 orderPetCollar(for: sam)
 
-
 //: [⇒ Next: 04 - Challenge - Functions](@next)

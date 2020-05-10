@@ -10,9 +10,9 @@ import SwiftUI
 
 struct RowView: View {
     @Binding var task: Task
-    
+
     let checkmark = Image(systemName: "checkmark")
-    
+
     var body: some View {
         NavigationLink(
         destination: TaskEdtitingView(task: $task)) {
@@ -30,6 +30,6 @@ struct RowView: View {
 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView(task: .constant (Task(name:  "To Do")))
+        RowView(task: .constant (Task(name: "To Do")))
     }
 }

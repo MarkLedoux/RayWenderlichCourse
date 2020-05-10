@@ -3,20 +3,19 @@
 
 //: Functions are data types, and can be assigned to variables and constants just like `Int` and `String`.
 
-
 func add(number1: Int, number2: Int) -> Int {
     number1 + number2
 }
 
 var function = add
-function(5,10)
+function(5, 10)
 
 func subtract(number1: Int, number2: Int) -> Int {
     number1 - number2
 }
 
 var substrat = subtract
-substrat(10,5)
+substrat(10, 5)
 
 //: Functions can use functions as parameter and return types. Functions that do this are called  "higher-order functions"
 
@@ -28,7 +27,6 @@ func printResult(_ operate: Operate, _ a: Int, _ b: Int) {
 }
 
 printResult(add, 5, 10)
-
 
 //: A `typealias` lets you give a name to a compound type, or give *another* name to a named type.
 

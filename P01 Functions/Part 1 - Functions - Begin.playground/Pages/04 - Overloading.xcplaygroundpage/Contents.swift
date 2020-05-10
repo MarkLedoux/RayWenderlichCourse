@@ -13,7 +13,6 @@ func getPassedStatus(for grade: Int) -> Bool {
     grade >= passingGrade
 }
 
-
 //: Overload using Different Number of Parameters
 
 func getPassedStatus(for grade: Int, lowestPass: Int) -> Bool {
@@ -24,8 +23,6 @@ getPassedStatus(for: ozmaGrade, lowestPass: 80)
 getPassedStatus(for: jessyGrade)
 
 //: Use default values for parameters, instead of overloads, when you can
-
-
 
 //: Overload using Different Parameter Types
 
@@ -64,4 +61,3 @@ func getValue() -> String {
 let intValue: Int = getValue()
 
 //: [⇒ Next: 05 - Advanced Parameters](@next)
-

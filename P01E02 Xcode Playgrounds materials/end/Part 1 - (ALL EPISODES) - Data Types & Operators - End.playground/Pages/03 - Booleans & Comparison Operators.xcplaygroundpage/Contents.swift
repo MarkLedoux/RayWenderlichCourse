@@ -24,6 +24,4 @@ let dogName = "Mango"
 catName == dogName
 catName > dogName
 
-
-
 //: [⇒ Next: 04 - Challenge - Booleans & Comparison Operators](@next)

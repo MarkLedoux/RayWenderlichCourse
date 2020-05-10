@@ -56,7 +56,6 @@ printHighestGrade(jessyGrade, ozmaGrade)
 //: The return type is specified after the parameter list and a return token
 //: To return a value, use the `return` keyword and then the value you want to return
 
-
 func getPassStatus(for grade: Int, lowestPass: Int = passingGrade) -> Bool {
   return grade >= lowestPass
 }
@@ -70,7 +69,5 @@ func getPassStatus2(for grade: Int, lowestPass: Int = passingGrade) -> Bool {
 }
 
 let ozmaPassStatus = getPassStatus2(for: ozmaGrade, lowestPass: 80)
-
-
 
 //: [⇒ Next: 03 - Challenge - Functions](@next)

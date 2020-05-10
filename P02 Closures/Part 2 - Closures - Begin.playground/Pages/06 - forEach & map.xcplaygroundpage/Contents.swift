@@ -14,7 +14,6 @@ for price in prices {
 print()
 prices.forEach { print($0) }
 
-
 //: `map` - Loops over an array, executes closure code, returns a new array
 
 var arrayForSalePrice: [Double] = []

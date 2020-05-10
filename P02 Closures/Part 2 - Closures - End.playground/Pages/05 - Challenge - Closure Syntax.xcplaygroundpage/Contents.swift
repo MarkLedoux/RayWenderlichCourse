@@ -34,7 +34,4 @@ copyLines_2("tell lies", 5)
 copyLines_3("tell lies", 5)
 copyLines_4("tell lies", 5)
 
-
-
-
 //: [⇒ Next: 06 - forEach and map](@next)

@@ -40,5 +40,4 @@ getValues(for: .onXAxis(66.6))
 getValues(for: .onYAxis(-3.5))
 getValues(for: TwoDimensionalPoint.noZeroCoordinate(x: 5, y: 7))
 
-
 //: [⇒ Next: 08 - Conclusion](@next)

@@ -4,12 +4,11 @@
 var emptyDictionary: [String: Int] = [:]
 
 var namesAndPets = [
-    "Ron" : "🐀 Rat",
-    "Rincewind" : "🛄 Luggage",
-    "Thor" : "🔨 Hammer",
-    "Goku" : "☁️ Flying Nimbus"
+    "Ron": "🐀 Rat",
+    "Rincewind": "🛄 Luggage",
+    "Thor": "🔨 Hammer",
+    "Goku": "☁️ Flying Nimbus"
 ]
-
 
 print(namesAndPets)
 

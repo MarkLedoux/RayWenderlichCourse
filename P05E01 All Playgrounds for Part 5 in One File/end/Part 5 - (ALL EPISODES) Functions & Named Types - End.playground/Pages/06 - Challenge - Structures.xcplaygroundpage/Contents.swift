@@ -18,7 +18,7 @@ struct Student {
 struct Classroom {
   let subject: String
   var students: [Student]
-  
+
   func getHighestGrade() -> Int? {
     var grades: [Int] = []
     for student in students {

@@ -39,8 +39,6 @@ chris["country"] = "USA"
 chris["city"] = "Cleveland"
 chris["state"] = "Ohio"
 
-
-
 /*:
  
  ## Challenge 3
@@ -66,8 +64,5 @@ chris["state"] = nil
 for (key, value) in chris {
     print("\(key): \(value)")
 }
-
-
-
 
 //: [⇒ Next: 05 - Working with Sets](@next)

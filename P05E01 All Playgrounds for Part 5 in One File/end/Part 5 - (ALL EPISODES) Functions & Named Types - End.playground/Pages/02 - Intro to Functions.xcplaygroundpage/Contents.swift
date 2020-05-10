@@ -8,7 +8,6 @@ func printHello() {
 printHello()
 printHello()
 
-
 // --------------------------------------
 let passingGrade = 50
 let chrisGrade = 49
@@ -24,7 +23,6 @@ func printPassStatus(for grade: Int, lowestPass: Int = passingGrade) {
 
 printPassStatus(for: samGrade, lowestPass: 80)
 printPassStatus(for: chrisGrade)
-
 
 func printHighestGrade(_ grade1: Int, _ grade2: Int) {
   print(grade1 >= grade2 ? grade1 : grade2)

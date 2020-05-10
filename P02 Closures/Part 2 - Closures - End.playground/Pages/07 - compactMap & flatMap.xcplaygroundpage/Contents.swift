@@ -17,7 +17,6 @@ for input in userInput {
 }
 arrayForValidInput
 
-
 let validInput = userInput.compactMap { input in
   Int(input)
 }

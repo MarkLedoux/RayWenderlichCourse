@@ -3,6 +3,4 @@
 
 var pastries: [String] = ["cookie", "danish", "cupcake", "donut", "pie", "brownie"]
 
-
-
 //: [⇒ Next: 06 - Challenge - Arrays](@next)

@@ -10,7 +10,7 @@ import SwiftUI
 
 struct TaskEdtitingView: View {
     @Binding var task: Task
-    
+
     var body: some View {
         Form {
             TextField("Name", text: $task.name)

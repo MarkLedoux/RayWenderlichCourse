@@ -28,7 +28,7 @@ floor_loop: for floor in 11...15 {
     if floor == 13 {
         continue
     }
-    room_loop: for room in 1...4 {
+    for room in 1...4 {
         if room == 1 {
             continue
         }
@@ -38,6 +38,5 @@ floor_loop: for floor in 11...15 {
         print("\(floor)-\(room)")
     }
 }
-
 
 //: [⇒ Next: 09 - Challenge - Nested Loops and Early Exit](@next)

@@ -37,7 +37,7 @@ func getPassStatus(for grades: [Int]) -> Bool {
     totalGrade += grade
   }
   let averageGrade = totalGrade / grades.count
-  
+
   return averageGrade >= passingGrade
 }
 
@@ -53,10 +53,8 @@ for i in stride(from: 10, through: 0, by: -2) {
   print(i)
 }
 
-
 // fancy separator for console readability
 print("\n ---//-----//--- \n")
-
 
 //: Overload using Different Return Types
 
@@ -71,6 +69,4 @@ func getValue() -> String {
 //let value = getValue()
 let intValue: Int = getValue()
 
-
 //: [⇒ Next: 05 - Advanced Parameters](@next)
-

@@ -10,16 +10,16 @@ import SwiftUI
 
 struct NewTaskView: View {
     var taskStore: TaskStore
-    
+
     @Environment(\.presentationMode) var presentationMode
-    
+
     @State private var text = ""
     @State private var priority: Task.Priority = .no
-    
+
     var body: some View {
         Form {
             TextField("Task Name", text: $text)
-            
+
             VStack {
                 Text("Priority")
                 Picker("Priority", selection: $priority.caseIndex) {
@@ -33,7 +33,7 @@ struct NewTaskView: View {
                 }
                 .pickerStyle(SegmentedPickerStyle())
             }
-            
+
             Button("Add") {
                 let priorityIndex = self.taskStore.getIndex(for: self.priority)
                 self.taskStore.prioritizedTasks[priorityIndex].tasks.append(

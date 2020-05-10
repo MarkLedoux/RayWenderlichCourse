@@ -24,8 +24,6 @@ let dwarvesAfterM = arrayOfDwarfArrays.flatMap { dwarves -> [String] in
   dwarves.filter { $0 > "M" }
 }.sorted()
 
-
-
 //: reduce
 
 // --------------------------------------
@@ -58,7 +56,6 @@ var stock = [1.50: 5, 10.00: 2, 4.99: 20, 2.30: 5, 8.19: 30]
 let stockSums = stock.reduce(into: []) { (result, item) in
   result.append(item.key * Double(item.value))
 }
-
 
 //: Sorting Methods
 

@@ -24,7 +24,6 @@ getDescription(for: -52)
 getDescription(for: Int.max)
 getDescription(for: 15)
 
-
 //: Switching on expressions
 
 let number = Int.max
@@ -37,12 +36,11 @@ default:
   numberIsEven = false
 }
 
-
 //: Switching on multiple values
 
 func pointCategory(for coordinates: (Double, Double)) -> String {
   switch coordinates {
-  case (0,0):
+  case (0, 0):
     return "Origin"
   case (let x, 0):
     return "On the x-axis at \(x)"
@@ -64,7 +62,4 @@ pointCategory(for: (-4, 17))
 pointCategory(for: (2, 4))
 pointCategory(for: (6, 6))
 
-
-
 //: [⇒ Next: 06 - Challenge - Switch Statements](@next)
-

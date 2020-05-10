@@ -36,8 +36,6 @@ case (_, let age):
   lifeStage = "Unaccounted for age: \(age)."
 }
 
-
-
 /*:
  ## Challenge 2
  Imagine starting a new level in a video game. The character makes a series of movements in the game. Calculate the position of the character on a top-down level map after making a set of movements.
@@ -54,7 +52,7 @@ enum Direction {
 }
 
 func getLocation(for movements: [Direction]) -> (x: Int, y: Int) {
-  
+
   movements.reduce(into: (x: 0, y: 0)) { (location, movement) in
     switch movement {
     case .north:
@@ -70,9 +68,5 @@ func getLocation(for movements: [Direction]) -> (x: Int, y: Int) {
 }
 
 getLocation(for: [.north, .west, .west])
-
-
-
-
 
 //: [⇒ Next: 07 - Associated Values](@next)

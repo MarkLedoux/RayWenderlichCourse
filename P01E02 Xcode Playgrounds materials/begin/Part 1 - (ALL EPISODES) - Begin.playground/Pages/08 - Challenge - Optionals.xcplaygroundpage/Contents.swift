@@ -19,7 +19,6 @@ var dogName: String?
 
 dogName = hasAllergies ? nil : "Mango"
 
-
 /*:
  ## Challenge 2
  
@@ -33,7 +32,6 @@ dogName = hasAllergies ? nil : "Mango"
 let parsedInt = Int("10")
 
 //parsedInt might contain an Int number or might not, we could try wrriting letter and the conversion would not work anymore
-
 
 /*:
  ## Challenge 3

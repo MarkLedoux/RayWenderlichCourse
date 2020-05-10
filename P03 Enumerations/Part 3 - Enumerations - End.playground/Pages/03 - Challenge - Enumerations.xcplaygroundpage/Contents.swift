@@ -31,7 +31,6 @@ let club = Image(systemName: Suit.club.rawValue).resizable()
 let spade = Image(systemName: Suit.spade.rawValue).resizable()
 let diamond = Image(systemName: Suit.diamond.rawValue).resizable()
 
-
 /*:
  ## Challenge 2
  Integer raw values don’t have to be in an incremental order! Coins are a good use case.
@@ -59,7 +58,5 @@ let coinPurse: [Coin] = [.penny, .penny, .dime, .quarter, .quarter, .nickel, .pe
 let total = coinPurse.reduce(0.0) { (result, coin) -> Double in
   result + coin.rawValue
 }
-
-
 
 //: [⇒ Next: 04 - Switch Statements](@next)

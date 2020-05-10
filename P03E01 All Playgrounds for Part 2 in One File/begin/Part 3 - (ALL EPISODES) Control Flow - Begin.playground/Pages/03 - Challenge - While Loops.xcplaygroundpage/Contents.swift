@@ -22,7 +22,6 @@ while count < 10 {
     count += 1
 }
 
-
 /*:
  
  ## Challenge 2
@@ -41,8 +40,6 @@ repeat {
     print("Counting down: \(count)")
     count -= 1
 } while count != 0
-
-
 
 /*:
  
@@ -74,10 +71,5 @@ repeat {
     rollCount += 1
     print("Roll \(rollCount) gives you \(roll)")
 } while roll != 6
-
-
-
-
-
 
 //: [⇒ Next: 04 - For Loops](@next)

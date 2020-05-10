@@ -7,18 +7,18 @@ class Student {
   var grade: Int
   var pet: String?
   var libraryBooks: [String]
-  
+
   init(name: String, grade: Int, pet: String? = nil, libraryBooks: [String]) {
     self.name = name
     self.grade = grade
     self.pet = pet
     self.libraryBooks = libraryBooks
   }
-  
+
   func getPassStatus(lowestPass: Int = 50) -> Bool {
     grade >= lowestPass
   }
-  
+
   func earnExtraCredit() {
     grade += 10
   }
@@ -82,6 +82,5 @@ let classPets_2 = students.compactMap { $0.pet }
 let classLibraryBooks = students.flatMap { (student) -> [String] in
     student.libraryBooks
 }
-
 
 //: [⇒ Next: 09 - filter, reduce, & sort](@next)

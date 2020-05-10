@@ -16,6 +16,19 @@ enum Season: String, CaseIterable {
   case autumn
 }
 
+func getSeason(for month: Month) -> Season {
+	switch month {
 
+	case .december, .january, .february:
+		return .winter
+	case .march, .april, .may:
+		return .spring
+	case .june, .july, .august:
+		return .summer
+	case .september, .october, .november:
+		return .autumn
+	}
+}
 
+getSeason(for: .march)
 //: [⇒ Next: 05 - More Switch Statements](@next)

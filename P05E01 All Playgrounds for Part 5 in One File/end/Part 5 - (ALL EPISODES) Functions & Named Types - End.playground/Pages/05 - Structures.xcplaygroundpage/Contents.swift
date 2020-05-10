@@ -9,11 +9,11 @@ struct Student {
   let name: String
   var grade: Int
   var pet: String?
-  
+
   func getPassStatus(lowestPass: Int = 50) -> Bool {
     grade >= lowestPass
   }
-  
+
   mutating func earnExtraCredit() {
     grade += 10
   }
@@ -33,6 +33,5 @@ evilCatie.pet = "Mustachioed Ozma"
 
 catie
 evilCatie
-
 
 //: [⇒ Next: 06 - Challenge - Arrays](@next)

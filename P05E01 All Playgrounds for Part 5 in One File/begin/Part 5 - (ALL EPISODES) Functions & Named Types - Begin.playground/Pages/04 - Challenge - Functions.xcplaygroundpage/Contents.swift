@@ -20,5 +20,4 @@ func calculatedFullName(_ firstName: String, _ lastName: String) -> String {
  }
 let fullName = calculatedFullName("Mark", "LEDOUX")
 
-
 //: [⇒ Next: 05 - Operating on Arrays](@next)

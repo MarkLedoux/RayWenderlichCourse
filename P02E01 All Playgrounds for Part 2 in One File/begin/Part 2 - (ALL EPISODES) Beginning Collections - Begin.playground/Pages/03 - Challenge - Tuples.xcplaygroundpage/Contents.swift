@@ -1,7 +1,6 @@
 //: [⇐ Previous: 02 - Tuples](@previous)
 //: ## Episode 03: Challenge - Tuples
 
-
 /*:
  ### TUPLES
  
@@ -14,7 +13,6 @@ let specialDate = (6, 3, 2019, "WWDC")
 /*:
  Create another tuple, but this time name the constituent components. Give them names related to the data that they contain: month, day, year and description.
  */
-
 
 // TODO: Write solution here
 let newSpecialDate = (month: 6, day: 3, year: 2019, meaning: "WWDC")

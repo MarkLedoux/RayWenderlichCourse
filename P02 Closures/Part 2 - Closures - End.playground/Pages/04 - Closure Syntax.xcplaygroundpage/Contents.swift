@@ -39,6 +39,4 @@ printResult(10, 3, { $0 * $1 + 10 })
 
 printResult(10, 3) { $0 * $1 + 10 }
 
-
-
 //: [⇒ Next: 05 - Challenge - Closure Syntaxes](@next)

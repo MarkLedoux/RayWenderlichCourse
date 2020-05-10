@@ -29,10 +29,4 @@ for i in 1...count where i % 2 == 1 {
 
 5 % 2
 
-
-
-
-
-
-
 //: [⇒ Next: 05 - Challenge - For Loops](@next)

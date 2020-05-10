@@ -23,7 +23,6 @@ func multiply(number: Double, by multiplier: Double) -> Double {
   return number * multiplier
 }
 
-
 /*:
  ## Challenge 2
  Eliminate the overloads below by using a default value for a parameter.
@@ -49,7 +48,6 @@ printMultipleOf(multiplier: 7)
 printMultipleOf(multiplier: 11, number: 4)
 // --------------------------------------
 
-
 /*:
  ## Challenge 3
  1 - Change the function below so that it can modify the right parameter.
@@ -68,6 +66,5 @@ func update(score: inout Int, withPoints points: Int) {
 //update(score: score, withPoints: 100)
 update(score: &score, withPoints: 100)
 score
-
 
 //: [⇒ Next: 07 - Functions as Parameters](@next)

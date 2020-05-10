@@ -5,6 +5,4 @@ let daysOfTheWeek: [String] = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thur
 
 let poolTemperature: [Int] = [78, 81, 74, 80, 79, 83, 84]
 
-
-
 //: [⇒ Next: 09 - Challenge - Nested Loops and Early Exit](@next)

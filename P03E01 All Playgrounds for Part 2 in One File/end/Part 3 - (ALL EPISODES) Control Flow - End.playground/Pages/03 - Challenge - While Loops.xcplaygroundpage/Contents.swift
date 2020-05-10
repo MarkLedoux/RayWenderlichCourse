@@ -15,7 +15,6 @@
  Explain why the final value of `count` and the value in the last line printed out are different.
  */
 
-
 var count = 0
 
 while count < 10 {
@@ -44,8 +43,6 @@ repeat {
 // while count >= 1
 // while count != 0
 
-
-
 /*:
  
  ## Challenge 3.
@@ -67,7 +64,6 @@ repeat {
  Set the loop condition so that the repeat while loop finishes when the first 6 is rolled.
  */
 
-
 var rollCount = 0
 var roll = 0
 
@@ -76,9 +72,5 @@ repeat {
     rollCount += 1
     print("Roll \(rollCount) gives you a \(roll)")
 } while roll != 6
-
-
-
-
 
 //: [⇒ Next: 04 - For Loops](@next)

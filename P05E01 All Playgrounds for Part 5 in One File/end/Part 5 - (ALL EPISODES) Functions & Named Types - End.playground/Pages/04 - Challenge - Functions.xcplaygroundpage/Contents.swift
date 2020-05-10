@@ -13,7 +13,6 @@ func printFullName(_ firstName: String, _ lastName: String) {
 //printFullName(firstName: "Chris", lastName: "Belanger")
 printFullName("Chris", "Belanger")
 
-
 /*:
 ## Challenge 2
  Write a function named `calculateFullName` that returns the full name as a string. Use it to store your own full name in a constant.
@@ -23,7 +22,5 @@ func calculateFullName(_ firstName: String, _ lastName: String) -> String {
   return firstName + " " + lastName
 }
 let fullName = calculateFullName("Chris", "Belanger")
-
-
 
 //: [⇒ Next: 05 - Operating on Arrays](@next)

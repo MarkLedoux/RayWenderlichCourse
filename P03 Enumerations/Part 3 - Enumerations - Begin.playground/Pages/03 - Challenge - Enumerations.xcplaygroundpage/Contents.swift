@@ -13,14 +13,19 @@ import SwiftUI
 
 // TODO: Write enumeration here
 
+enum Suit: String {
+	case heart = "suit.heart.fill"
+	case club = "suit.club.fill"
+	case spade = "suit.spade.fill"
+	case diamond = "suit.diamond.fill"
+}
 
 // --------------------------------------
-let heart = Image(systemName: "suit.heart.fill").resizable()
-let club = Image(systemName: "suit.club.fil").resizable()
-let spade = Image(systemName: "suit.spade.fill").resizable()
-let diamond = Image(systemName: "suite.diamond.fill").resizable()
+let heart = Image(systemName: Suit.heart.rawValue).resizable()
+let club = Image(systemName: Suit.club.rawValue).resizable()
+let spade = Image(systemName: Suit.spade.rawValue).resizable()
+let diamond = Image(systemName: Suit.diamond.rawValue).resizable()
 // --------------------------------------
-
 
 /*:
  ## Challenge 2
@@ -32,6 +37,14 @@ let diamond = Image(systemName: "suite.diamond.fill").resizable()
 
 // TODO: Write solution here
 
+enum Coin: Double {
+	case penny = 0.01
+	case nickel = 0.05
+	case dime = 0.10
+	case quarter = 0.25
+}
+
+let coinPurse: [Coin] = [.penny, .penny, .dime, .nickel, .nickel, .quarter]
 
 /*:
  ## Bonus Challenge!
@@ -39,7 +52,8 @@ let diamond = Image(systemName: "suite.diamond.fill").resizable()
  Remember to use the `rawValue` property!
 */
 
-
-
+let total = coinPurse.reduce(0.0) { (result, coin) -> Double in
+	result + coin.rawValue
+}
 
 //: [⇒ Next: 04 - Switch Statements](@next)

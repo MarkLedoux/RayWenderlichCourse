@@ -39,20 +39,16 @@ func printMultipleOf(multiplier: Int) {
 }
 // --------------------------------------
 
-
 func printMultipleOf(_ multiplier: Int = 2) {
   print("\(multiplier) * 1)  = \(multiplier * 1)")
 }
 
 // TODO: Write solution here
 
-
-
 // --------------------------------------
 printMultipleOf(multiplier: 7)
 printMultipleOf(multiplier: 11, number: 4)
 // --------------------------------------
-
 
 /*:
  ## Challenge 3
@@ -67,6 +63,5 @@ func update(score: inout Int, withPoints points: Int) {
 }
 
 update(score: &score, withPoints: 3)
-
 
 //: [⇒ Next: 07 - Functions as Parameters](@next)

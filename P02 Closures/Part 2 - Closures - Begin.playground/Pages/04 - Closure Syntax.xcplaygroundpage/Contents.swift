@@ -5,20 +5,19 @@
 typealias Operate = (Int, Int) -> Int
 // --------------------------------------
 
-let longClosure =  { (a: Int, b: Int) -> Int in
+let longClosure = { (a: Int, b: Int) -> Int in
      a * b
 }
 
-let noParameterTypes: Operate =  { (a, b) -> Int in
+let noParameterTypes: Operate = { (a, b) -> Int in
      a * b
 }
 
-let noReturnType: Operate =  { (a, b) in
+let noReturnType: Operate = { (a, b) in
      a * b
 }
 
-let shortClosure: Operate =  { $0 * $1 }
-
+let shortClosure: Operate = { $0 * $1 }
 
 let voidClosure: () -> Void = {
     print("Yay Swift!")
@@ -30,7 +29,7 @@ func printResult(_ a: Int, _ b: Int, _ operate: Operate) {
 }
 // --------------------------------------
 
-printResult( 10, 3, { $0 * $1 + 10 } )
+printResult( 10, 3, { $0 * $1 + 10 })
 printResult(10, 3) { $0 * $1 + 10 }
 
 //: [⇒ Next: 05 - Challenge - Closure Syntaxes](@next)

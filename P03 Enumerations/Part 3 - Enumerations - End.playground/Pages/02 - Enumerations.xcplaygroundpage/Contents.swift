@@ -17,17 +17,16 @@ func monthsUntilJingleBells(from month: Month) -> Int {
 
 monthsUntilJingleBells(from: .november)
 
-
 enum Season: String, CaseIterable {
   /// ☃️
   case winter
-  
+
   /// 🌸
   case spring
-  
+
   /// 😎
   case summer
-  
+
   /// 🍂
   case autumn
 }
@@ -37,9 +36,5 @@ Season.winter.rawValue
 Season.allCases.filter {
   $0.rawValue.first == "s"
 }
-
-
-
-
 
 //: [⇒ Next: 03 - Challenge - Enumerations](@next)

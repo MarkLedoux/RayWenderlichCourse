@@ -31,6 +31,4 @@ func getSeason(for month: Month) -> Season {
 
 getSeason(for: .august)
 
-
-
 //: [⇒ Next: 05 - More Switch Statements](@next)

@@ -19,7 +19,6 @@ prices.forEach { (price) in
 
 prices.forEach { print($0) }
 
-
 //: `map` - Loops over an array, executes closure code, returns a new array
 
 // `map` as a `for` loop
@@ -34,6 +33,5 @@ let salePrices = prices.map { $0 * 0.9 }
 let priceLabels = salePrices.map { (price) in
   String(format: "%.2f", price)
 }
-
 
 //: [⇒ Next: 07 - compactMap & flatMap](@next)

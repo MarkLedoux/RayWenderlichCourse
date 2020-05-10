@@ -14,8 +14,7 @@ let myAge = 42
 
 if myAge >= 13 && myAge <= 19 {
     print("Teenager")
-} else
-{
+} else {
     print("Not a teenager")
 }
 

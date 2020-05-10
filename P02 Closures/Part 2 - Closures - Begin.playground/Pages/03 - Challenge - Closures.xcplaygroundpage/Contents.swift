@@ -17,7 +17,7 @@ func calculateFullName(firstName: String, lastName: String?) -> String {
 
 let calculateFullName = { (firstName: String, lastName: String?) -> String in
     firstName + " " + (lastName ?? "")
-    
+
 }
 calculateFullName(firstName: "Mark", lastName: "LEDOUX")
 
@@ -38,11 +38,9 @@ func printResult(_ operate: Operate, _ a: Double, _ b: Double) {
 
 // TODO: Write solution here
 
-printResult(
-    { (a, b) -> Double in
+printResult({ (a, b) -> Double in
         a + b + 100.5
 },
     7.5, 3.5)
-
 
 //: [⇒ Next: 04 - Closure Syntax](@next)

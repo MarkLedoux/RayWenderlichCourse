@@ -37,5 +37,3 @@ THE SOFTWARE.
 //: You can get started with the first exercise in the course at the link below:
 //:
 //: [⇒ Next: 02 - Functions](@next)
-
-
