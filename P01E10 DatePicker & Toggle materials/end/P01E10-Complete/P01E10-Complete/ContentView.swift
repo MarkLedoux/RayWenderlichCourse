@@ -28,29 +28,34 @@
 
 import SwiftUI
 
+
+class ContentViewModel: ObservableObject {
+	@Published var isActivated = false
+	@Published var pickedDate = Date()
+	
+	var dateFormatter: DateFormatter {
+		let dateFormatter = DateFormatter()
+		dateFormatter.dateStyle = .short
+		return dateFormatter
+	}
+	var isActivatedMessage: String {
+		return "CatNip is " + (isActivated ? "Activated" : "Deactivated")
+	}
+}
+
 struct ContentView: View {
 
-  @State private var isActivated = false
-  @State private var pickedDate = Date()
-
-  var dateFormatter: DateFormatter {
-    let dateFormatter = DateFormatter()
-    dateFormatter.dateStyle = .short
-    return dateFormatter
-  }
-  var isActivatedMessage: String {
-    return "CatNip is " + (isActivated ? "Activated" : "Deactivated")
-  }
+  @ObservedObject var vm = ContentViewModel()
 
   var body: some View {
 
     VStack {
-      Toggle("Activate Cat Nip", isOn: $isActivated)
-      Text(isActivatedMessage)
-        .foregroundColor(isActivated ? .green : .red)
-        .fontWeight(isActivated ? .heavy : .regular)
+			Toggle("Activate Cat Nip", isOn: $vm.isActivated)
+			Text(vm.isActivatedMessage)
+				.foregroundColor(vm.isActivated ? .green : .red)
+				.fontWeight(vm.isActivated ? .heavy : .regular)
       
-      Toggle(isOn: $isActivated) {
+			Toggle(isOn: $vm.isActivated) {
         VStack {
           Image("CatNip")
             .resizable()
@@ -63,11 +68,11 @@ struct ContentView: View {
 //        Text("Select Date")
 //      }
       
-      DatePicker(selection: $pickedDate, in: ClosedRange(uncheckedBounds: (lower: Date(), upper: Date(timeIntervalSinceNow: 900000))), displayedComponents: .date) {
+			DatePicker(selection: $vm.pickedDate, in: ClosedRange(uncheckedBounds: (lower: Date(), upper: Date(timeIntervalSinceNow: 900000))), displayedComponents: .date) {
         Text("Select Date")
       }
 
-      Text("\(dateFormatter.string(from: pickedDate))")
+			Text("\(vm.dateFormatter.string(from: vm.pickedDate))")
 
     }
   }
